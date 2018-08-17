@@ -6,6 +6,7 @@ const config = {
     modules: [path.resolve('./lib'), path.resolve('./node_modules')]
   },
   entry: {
+    
     vendor: [
       'babel-polyfill',
       'react',
